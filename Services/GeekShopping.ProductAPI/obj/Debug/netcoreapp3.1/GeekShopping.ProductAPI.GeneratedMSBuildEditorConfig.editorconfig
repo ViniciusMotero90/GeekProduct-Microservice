@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = GeekShopping.ProductAPI
+build_property.ProjectDir = C:\Users\W11\source\repos\erudio-microservices-dotnet6\Microservices\GeekShopping\Services\GeekShopping.ProductAPI\
