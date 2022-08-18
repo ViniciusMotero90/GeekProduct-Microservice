@@ -54,3 +54,5 @@ C:\Users\W11\source\repos\erudio-microservices-dotnet6\Microservices\GeekShoppin
 C:\Users\W11\source\repos\erudio-microservices-dotnet6\Microservices\GeekShopping\Services\GeekShopping.ProductAPI\obj\Debug\netcoreapp3.1\GeekShopping.ProductAPI.dll
 C:\Users\W11\source\repos\erudio-microservices-dotnet6\Microservices\GeekShopping\Services\GeekShopping.ProductAPI\obj\Debug\netcoreapp3.1\GeekShopping.ProductAPI.pdb
 C:\Users\W11\source\repos\erudio-microservices-dotnet6\Microservices\GeekShopping\Services\GeekShopping.ProductAPI\obj\Debug\netcoreapp3.1\GeekShopping.ProductAPI.genruntimeconfig.cache
+C:\Users\W11\source\repos\erudio-microservices-dotnet6\Microservices\GeekShopping\Services\GeekShopping.ProductAPI\obj\Debug\netcoreapp3.1\staticwebassets\GeekShopping.ProductAPI.StaticWebAssets.xml
+C:\Users\W11\source\repos\erudio-microservices-dotnet6\Microservices\GeekShopping\Services\GeekShopping.ProductAPI\obj\Debug\netcoreapp3.1\scopedcss\bundle\GeekShopping.ProductAPI.styles.css

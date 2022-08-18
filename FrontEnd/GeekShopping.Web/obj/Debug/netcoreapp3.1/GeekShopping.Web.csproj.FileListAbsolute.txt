@@ -352,3 +352,4 @@ C:\Users\W11\source\repos\erudio-microservices-dotnet6\Microservices\GeekShoppin
 C:\Users\W11\source\repos\erudio-microservices-dotnet6\Microservices\GeekShopping\FrontEnd\GeekShopping.Web\obj\Debug\netcoreapp3.1\GeekShopping.Web.dll
 C:\Users\W11\source\repos\erudio-microservices-dotnet6\Microservices\GeekShopping\FrontEnd\GeekShopping.Web\obj\Debug\netcoreapp3.1\GeekShopping.Web.pdb
 C:\Users\W11\source\repos\erudio-microservices-dotnet6\Microservices\GeekShopping\FrontEnd\GeekShopping.Web\obj\Debug\netcoreapp3.1\GeekShopping.Web.genruntimeconfig.cache
+C:\Users\W11\source\repos\erudio-microservices-dotnet6\Microservices\GeekShopping\FrontEnd\GeekShopping.Web\obj\Debug\netcoreapp3.1\Razor\Views\Product\ProductIndex.cshtml.g.cs
