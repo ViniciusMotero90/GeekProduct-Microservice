@@ -26,7 +26,7 @@ namespace GeekShopping.ProductAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddDbContext<ApplicationDbContext>(options => options.UseMySql("server=localhost;initial catalog=GeekShopping.ProductAPI;uid=root;pwd=", ServerVersion.Parse("8.0.29-mysql")));
+            services.AddDbContext<ApplicationDbContext>(options => options.UseMySql("server=localhost;initial catalog=GeekShopping.ProductAPI;uid=root;pwd=Vinicius23", ServerVersion.Parse("8.0.29-mysql")));
 
             IMapper mapper = MappingConfig.RegisterMaps().CreateMapper();
             services.AddSingleton(mapper);
