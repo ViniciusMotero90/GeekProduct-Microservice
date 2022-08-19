@@ -28,7 +28,7 @@ namespace GeekShopping.IdentityServer
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            services.AddDbContext<MySqlContext>(options => options.UseMySql("server=localhost;initial catalog=GeekShopping.IndentiyServer;uid=root;pwd=Vinicius23", ServerVersion.Parse("8.0.29-mysql")));
+            services.AddDbContext<MySqlContext>(options => options.UseMySql("server=localhost;initial catalog=GeekShopping.IndentiyServer;uid=root;pwd=", ServerVersion.Parse("8.0.29-mysql")));
             services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFrameworkStores<MySqlContext>().AddDefaultTokenProviders();
             var builder = services.AddIdentityServer(options => 
             {
