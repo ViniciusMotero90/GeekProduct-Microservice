@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jdWYvZQtSFOSBuJ959BiJCzCpZlztEOiZiDMzrlXsPGzhot2ULAJhH3fTZeVmPQobXkV+JCXRRb+kNXL6Dzjlw==",
+  "dgSpecHash": "fnmYJKzvR7ubKIEUqoW7Po3Yqx10Ug8Y8ZhF2HNNpatAdHyC3BDv6X2jfhgAkrb/7gYFGxEDJzhposPIZuPaPQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\W11\\source\\repos\\erudio-microservices-dotnet6\\Microservices\\GeekShopping\\Services\\GeekShopping.ProductAPI\\GeekShopping.ProductAPI.csproj",
+  "projectFilePath": "C:\\Users\\W11\\source\\repos\\GeekProduct-Microservice\\Services\\GeekShopping.ProductAPI\\GeekShopping.ProductAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\W11\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\W11\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
@@ -87,7 +87,8 @@
     "C:\\Users\\W11\\.nuget\\packages\\system.threading.tasks.extensions\\4.3.0\\system.threading.tasks.extensions.4.3.0.nupkg.sha512",
     "C:\\Users\\W11\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\W11\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\W11\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\W11\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\W11\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.28\\microsoft.netcore.app.host.win-x64.3.1.28.nupkg.sha512"
   ],
   "logs": []
 }

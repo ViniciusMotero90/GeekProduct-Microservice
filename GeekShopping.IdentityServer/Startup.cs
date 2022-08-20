@@ -1,4 +1,5 @@
 using GeekShopping.IdentityServer.Configuration;
+using GeekShopping.IdentityServer.Initializer;
 using GeekShopping.IdentityServer.Model;
 using GeekShopping.IdentityServer.Model.Context;
 using Microsoft.AspNetCore.Builder;
@@ -28,23 +29,28 @@ namespace GeekShopping.IdentityServer
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            services.AddDbContext<MySqlContext>(options => options.UseMySql("server=localhost;initial catalog=GeekShopping.IndentiyServer;uid=root;pwd=", ServerVersion.Parse("8.0.29-mysql")));
+            services.AddDbContext<MySqlContext>(options => options.UseMySql("server=localhost;initial catalog=GeekShopping.IndentiyServer;uid=root;pwd=Vinicius23", ServerVersion.Parse("8.0.29-mysql")));
             services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFrameworkStores<MySqlContext>().AddDefaultTokenProviders();
-            var builder = services.AddIdentityServer(options => 
+            var builder = services.AddIdentityServer(options =>
             {
                 options.Events.RaiseErrorEvents = true;
                 options.Events.RaiseInformationEvents = true;
                 options.Events.RaiseFailureEvents = true;
                 options.Events.RaiseSuccessEvents = true;
                 options.EmitStaticAudienceClaim = true;
-            }).AddInMemoryIdentityResources(IdentityConfiguration.IdentityResources)
-            .AddInMemoryClients(IdentityConfiguration.Clients)
-            .AddAspNetIdentity<ApplicationIdentity>();
+            })
+                .AddInMemoryIdentityResources(IdentityConfiguration.IdentityResources)
+                .AddInMemoryApiScopes(IdentityConfiguration.ApiScopes)
+                .AddInMemoryClients(IdentityConfiguration.Clients)
+                .AddAspNetIdentity<ApplicationUser>();
+
+            services.AddScoped<IDbInitializer, DbInitializer>();
+
             builder.AddDeveloperSigningCredential();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IDbInitializer initializer)
         {
             if (env.IsDevelopment())
             {
@@ -54,6 +60,7 @@ namespace GeekShopping.IdentityServer
             {
                 app.UseExceptionHandler("/Home/Error");
             }
+            app.UseHttpsRedirection();
             app.UseStaticFiles();
 
             app.UseRouting();
@@ -61,6 +68,8 @@ namespace GeekShopping.IdentityServer
             app.UseIdentityServer();
 
             app.UseAuthorization();
+
+            initializer.Initializer();
 
             app.UseEndpoints(endpoints =>
             {

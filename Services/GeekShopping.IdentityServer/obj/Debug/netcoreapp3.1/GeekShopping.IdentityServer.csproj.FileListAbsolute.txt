@@ -1,0 +1,9 @@
+C:\Users\W11\source\repos\GeekProduct-Microservice\Services\GeekShopping.IdentityServer\obj\Debug\netcoreapp3.1\GeekShopping.IdentityServer.csproj.AssemblyReference.cache
+C:\Users\W11\source\repos\GeekProduct-Microservice\Services\GeekShopping.IdentityServer\obj\Debug\netcoreapp3.1\GeekShopping.IdentityServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\W11\source\repos\GeekProduct-Microservice\Services\GeekShopping.IdentityServer\obj\Debug\netcoreapp3.1\GeekShopping.IdentityServer.AssemblyInfoInputs.cache
+C:\Users\W11\source\repos\GeekProduct-Microservice\Services\GeekShopping.IdentityServer\obj\Debug\netcoreapp3.1\GeekShopping.IdentityServer.AssemblyInfo.cs
+C:\Users\W11\source\repos\GeekProduct-Microservice\Services\GeekShopping.IdentityServer\obj\Debug\netcoreapp3.1\GeekShopping.IdentityServer.csproj.CoreCompileInputs.cache
+C:\Users\W11\source\repos\GeekProduct-Microservice\Services\GeekShopping.IdentityServer\obj\Debug\netcoreapp3.1\GeekShopping.IdentityServer.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\W11\source\repos\GeekProduct-Microservice\Services\GeekShopping.IdentityServer\obj\Debug\netcoreapp3.1\GeekShopping.IdentityServer.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\W11\source\repos\GeekProduct-Microservice\Services\GeekShopping.IdentityServer\obj\Debug\netcoreapp3.1\GeekShopping.IdentityServer.RazorAssemblyInfo.cache
+C:\Users\W11\source\repos\GeekProduct-Microservice\Services\GeekShopping.IdentityServer\obj\Debug\netcoreapp3.1\GeekShopping.IdentityServer.RazorAssemblyInfo.cs

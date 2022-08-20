@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "imeONWMB7TYnJCPVcO1dHZh8bjSAi7tsC78zGozefBG+vqc/n7RcOBVmJsv7a0W72K+u8Q2WXxf3AiiwDXXBLA==",
+  "dgSpecHash": "FP56/0vNCl4REpm93yVYeI9KSn7ebXDTBnZTzPHzv73xz3DKB5hSW2oTM5M/vi2o29tI02vuHygjU/RT/gkNPQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\W11\\source\\repos\\erudio-microservices-dotnet6\\Microservices\\GeekShopping\\GeekShopping.IdentityServer\\GeekShopping.IdentityServer.csproj",
+  "projectFilePath": "C:\\Users\\W11\\source\\repos\\GeekProduct-Microservice\\Services\\GeekShopping.IdentityServer\\GeekShopping.IdentityServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\W11\\.nuget\\packages\\duende.identityserver\\5.2.4\\duende.identityserver.5.2.4.nupkg.sha512",
     "C:\\Users\\W11\\.nuget\\packages\\duende.identityserver.aspnetidentity\\5.2.4\\duende.identityserver.aspnetidentity.5.2.4.nupkg.sha512",
@@ -97,7 +97,8 @@
     "C:\\Users\\W11\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.3\\system.threading.tasks.extensions.4.5.3.nupkg.sha512",
     "C:\\Users\\W11\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\W11\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\W11\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\W11\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\W11\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.28\\microsoft.netcore.app.host.win-x64.3.1.28.nupkg.sha512"
   ],
   "logs": []
 }
