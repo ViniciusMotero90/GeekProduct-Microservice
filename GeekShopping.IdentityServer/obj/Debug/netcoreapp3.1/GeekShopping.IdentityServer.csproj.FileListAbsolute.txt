@@ -392,3 +392,5 @@ C:\Users\W11\source\repos\GeekProduct-Microservice\GeekShopping.IdentityServer\o
 C:\Users\W11\source\repos\GeekProduct-Microservice\GeekShopping.IdentityServer\bin\Debug\netcoreapp3.1\keys\is-signing-key-8E8776303E2ADAA718643D511F75CD3E.json
 C:\Users\W11\source\repos\GeekProduct-Microservice\GeekShopping.IdentityServer\bin\Debug\netcoreapp3.1\Humanizer.dll
 C:\Users\W11\source\repos\GeekProduct-Microservice\GeekShopping.IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\W11\source\repos\GeekProduct-Microservice\GeekShopping.IdentityServer\obj\Debug\netcoreapp3.1\scopedcss\bundle\GeekShopping.IdentityServer.styles.css
+C:\Users\W11\source\repos\GeekProduct-Microservice\GeekShopping.IdentityServer\bin\Debug\netcoreapp3.1\Serilog.dll

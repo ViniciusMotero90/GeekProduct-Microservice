@@ -113,3 +113,5 @@ C:\Users\W11\source\repos\GeekProduct-Microservice\Services\GeekShopping.Product
 C:\Users\W11\source\repos\GeekProduct-Microservice\Services\GeekShopping.ProductAPI\obj\Debug\netcoreapp3.1\GeekShopping.ProductAPI.pdb
 C:\Users\W11\source\repos\GeekProduct-Microservice\Services\GeekShopping.ProductAPI\obj\Debug\netcoreapp3.1\GeekShopping.ProductAPI.genruntimeconfig.cache
 C:\Users\W11\source\repos\GeekProduct-Microservice\Services\GeekShopping.ProductAPI\bin\Debug\netcoreapp3.1\libman.json
+C:\Users\W11\source\repos\GeekProduct-Microservice\Services\GeekShopping.ProductAPI\obj\Debug\netcoreapp3.1\staticwebassets\GeekShopping.ProductAPI.StaticWebAssets.xml
+C:\Users\W11\source\repos\GeekProduct-Microservice\Services\GeekShopping.ProductAPI\obj\Debug\netcoreapp3.1\scopedcss\bundle\GeekShopping.ProductAPI.styles.css

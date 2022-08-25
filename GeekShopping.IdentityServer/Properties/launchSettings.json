@@ -3,8 +3,8 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:30220",
-      "sslPort": 4435
+      "applicationUrl": "http://localhost:4436",
+      "sslPort": 0
     }
   },
   "profiles": {
@@ -19,7 +19,7 @@
     "GeekShopping.IdentityServer": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "https://localhost:4435;http://localhost:4436",
+      "applicationUrl": "http://localhost:4436",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
         "ASPNETCORE_HOSTINGSTARTUPASSEMBLIES": "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation"

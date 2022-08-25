@@ -36,21 +36,25 @@ namespace GeekShopping.ProductAPI
 
             services.AddScoped<IProductRepository, ProductRepository>();
 
-            services.AddAuthentication("Bearer").AddJwtBearer(options => 
-            {
-                options.Authority = "https://localhost:4435/";
-                options.TokenValidationParameters = new TokenValidationParameters
-                {
-                    ValidateAudience = false
-                };
-            });
+            services.AddControllers();
 
-            services.AddAuthorization(options => 
+            services.AddAuthentication("Bearer")
+                .AddJwtBearer("Bearer", options =>
+                {
+                    options.Authority = "http://localhost:4436/";
+                    options.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidateAudience = false
+                    };
+                    //options.RequireHttpsMetadata = false;
+                });
+
+            services.AddAuthorization(options =>
             {
-                options.AddPolicy("ApiScope", policy => 
+                options.AddPolicy("ApiScope", policy =>
                 {
                     policy.RequireAuthenticatedUser();
-                    policy.RequireClaim("scope", "Geek_Shopping");
+                    policy.RequireClaim("scope", "geek_shopping");
                 });
             });
 
